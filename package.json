@@ -6,10 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "cd client && npm run start",
-    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build",
     "api": "nodemon ./server.js",
     "dev": "concurrently \"react-scripts start\" \"nodemon server.js\"",
-    "heroku-postbuild": "npm run build"
     
   },
   "repository": {
