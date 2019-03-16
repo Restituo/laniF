@@ -7,9 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "cd client && npm run start",
     "start": "node index.js",
-    "heroku-postbuild": "cd client && npm install && npm run build",
     "api": "nodemon ./server.js",
-    "dev": "concurrently \"react-scripts start\" \"nodemon server.js\"",
+    "dev": "concurrently \"react-scripts start\" \"nodemon server.js\""
     
   },
   "repository": {
