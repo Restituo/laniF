@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-    "start:prod": "nodemon server.js",
+    "start:prod": "nodemon server",
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
     "client": "cd client && npm start",
     "install": "cd client && npm install",
@@ -36,6 +36,7 @@
     "express-session": "^1.15.6",
     "mongoose": "^5.4.19",
     "passport": "^0.4.0",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "if-env": "^1.0.4"
   }
 }
