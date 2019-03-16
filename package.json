@@ -1,7 +1,7 @@
 {
-  "name": "finally",
+  "name": "lanif",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fake Reddit built with MERN",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,18 +9,17 @@
     "start": "node index.js",
     "api": "nodemon ./server.js",
     "dev": "concurrently \"react-scripts start\" \"nodemon server.js\""
-    
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Restituo/Finally.git"
+    "url": "git+https://github.com/Restituo/laniF.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Restituo/Finally/issues"
+    "url": "https://github.com/Restituo/laniF/issues"
   },
-  "homepage": "https://github.com/Restituo/Finally#readme",
+  "homepage": "https://github.com/Restituo/laniF#readme",
   "devDependencies": {
     "concurrently": "^3.5.0",
     "nodemon": "^1.11.0"
