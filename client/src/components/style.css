@@ -1,0 +1,84 @@
+.createNew {
+    margin-top: 20px;
+    width: 100%;
+}
+.posts {
+	margin-top: 10px;
+}
+.posts li {
+	text-align: left;
+}
+.card-header {
+    background: ghostwhite;
+	color: 000;
+    font-weight: 600;
+    padding: -10%;
+}
+
+.lead {
+    color: white;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;    
+    text-align: center;
+    margin-top: 10%;
+}
+
+.SignUpContainer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10%;
+    
+}
+
+.LogInContainer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10%;
+   
+}
+
+input {
+    text-align: center;
+    padding: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 8px;
+}
+
+.btn {
+    background-color: ghostwhite;
+    border: black;
+}
+
+#commentBox{
+    margin-left: auto;
+    margin-top:  60px;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+}
+
+#addCommentButton{
+    margin-top: 20px;
+}
+
+.commentForm {
+    text-align:center;
+}
+
+
+.loginForm {
+    text-align:center;
+}
+
+#logintoadd {
+    margin-left: auto;
+    margin-top:  60px;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+}

@@ -1,0 +1,14 @@
+.navbar {
+    height: 50px;
+    background-color: ghostwhite;
+}
+
+h1 {
+    color: darkred;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-secondary {
+    text-align: right;
+}
