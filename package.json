@@ -9,9 +9,8 @@
     "start": "concurrently \"nodemon server.js\" \"npm run client\"",
     "api": "nodemon ./server.js",
     "dev": "concurrently \"react-scripts start\" \"nodemon server.js\"",
-    "heroku-postbuild": "npm run build",
+    "heroku-postbuild": "npm run build"
     
-    "build": "cd client && npm run build"
   },
   "repository": {
     "type": "git",
