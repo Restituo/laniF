@@ -42,7 +42,7 @@ app.use((req, res, next) => {
 //});
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://<asdf>:<asdf1234>@ds125932.mlab.com:25932/heroku_r9n17p1c");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fakereddit");
 
 // Add routes
 app.use('/user', user)
