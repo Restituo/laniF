@@ -1,18 +1,14 @@
 {
-  "name": "lanif",
+  "name": "laniF",
   "version": "1.0.0",
-  "description": "Fake Reddit built with MERN",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-    "start:prod": "node server.js",
-    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "client": "cd client && npm run start",
-    "seed": "node scripts/seedDB.js",
-    "install": "cd client && npm install",
-    "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build"
-
+    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "api": "nodemon ./server.js",
+    "dev": "concurrently \"react-scripts start\" \"nodemon server.js\""
   },
   "repository": {
     "type": "git",
@@ -25,7 +21,7 @@
   },
   "homepage": "https://github.com/Restituo/laniF#readme",
   "devDependencies": {
-    "concurrently": "^3.5.0",
+    "concurrently": "^3.6.1",
     "nodemon": "^1.11.0"
   },
   "dependencies": {
